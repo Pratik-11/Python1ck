@@ -49,7 +49,7 @@ def list_duplicates(duplicates):
 
 
 while(True):
-    duplicate_map = list_duplicates(search_dublicates_in_dir("/home/pratiksingh/Python1ck/dubli"))
+    duplicate_map = list_duplicates(search_dublicates_in_dir("/home/pratiksingh/Python1ck/"))
     
     if(len(duplicate_map) == 0):
         print("NO DUPLICATES")
@@ -66,8 +66,3 @@ while(True):
         break
     else:
         print("Invalid choice. Please enter a valid index.")
-
-
-
-
-
